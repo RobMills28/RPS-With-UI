@@ -1,0 +1,117 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*===================================END OF RESET=============================================*/
+
+
+
+body {
+    background: #000;
+    text-align: center;
+    font-family: 'Press Start 2P';
+    
+}
+#heading {
+    margin: 120px 30px 60px 30px;
+    text-align: center;
+    font-size: 50px;
+    color: yellow;
+}
+#welcome {
+    color: blue;
+    margin-bottom: 50px;
+}
+.button-row {
+    display: inline-block;
+}
+.button {
+    padding: 20px;
+    margin: 0 20px 0 20px;
+    font-family: 'Press Start 2P';
+    font-size: 20px;
+    border-radius: 5%;
+    width: 220px;
+    color:#000;
+}
+#rock {
+    background: red;
+}
+#paper {
+    background: green;
+}
+#scissors {
+    background: orange;
+}
+#rock:hover {
+    background: #000;
+    color: red
+}
+#paper:hover  {
+    background: #000;
+    color: green;
+}
+#scissors:hover  {
+    background: #000;
+    color: orange;
+}
+
+#container {
+    margin-top: 50px;
+    color: yellow;
+}
+#endGame {
+    margin-top: 20px;
+    font-size: 30px;
+}
+#score {
+    margin-top: 10px;
+    color: blue;
+}
+#result {
+    font-size: 25px;
+}
